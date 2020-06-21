@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: #eee;
     margin: 0 auto; // trick to center block elements
 
     &:not(:last-child) {
@@ -11,7 +10,6 @@
 
     // select by attribute
     [class^="col-"] {
-        background-color: orangered;
         float: left;
     
         &:not(:last-child) {
