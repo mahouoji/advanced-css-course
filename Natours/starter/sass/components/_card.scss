@@ -52,8 +52,8 @@
         background-size: cover;
         height: 23rem;
         background-blend-mode: screen; //blend 2 background images
-        --webkik-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        --webkik-clip-path: polygon(0 0, calc(100% + 1px) 0, calc(100% + 1px) 85%, 0 100%);
+        clip-path: polygon(0 0, calc(100% + 1px) 0, calc(100% + 1px) 85%, 0 100%);
         // // clip path resetting overflow: hidden
         // border-top-left-radius: 3px;
         // border-top-right-radius: 3px;
@@ -154,5 +154,4 @@
         font-size: 6rem;
         font-weight: 100;
     }
-        
 }
